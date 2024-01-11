@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <title>layout4</title>
+</head>
+<body>
+    <style>
+        .header{
+            background-color: cornflowerblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 20px 0px;
+        }
+        .wrapper{
+           max-width:960px ;
+           margin: 0px auto; 
+        }
+        .content{
+            width: 600px;
+            background-color: darkgrey;
+            height: 600px;
+            float: left;
+        }
+        .sidebar{
+            width: 360px;
+            background-color: rgb(118, 118, 141);
+            height: 600px;
+            float: right;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            padding: 15px 0px;
+            text-align: center;
+            font-size: 17px;
+        }
+        .wrapper::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+    </style>
+    <a href="home.html">Trang chủ</a>
+    <a href="layout1.html">layout1</a>
+    <a href="layout2.html">layout2</a>
+    <a href="layout3.html">layout3</a>
+    <a href="layout4.html">layout4</a>
+    <a href="layout5.html">layout5</a>
+    <a href="layout6.html">layout6</a>
+    <a href="layout7.html">layout7</a>
+    <div class="header">UNITOP.VN</div>
+<div class="wrapper">
+    <div class="content">Content</div>
+    <div class="sidebar">Sidebar</div>
+</div>
+<div class="footer">Phạm Đình Huy_</div>
+
+</body>
+</html>

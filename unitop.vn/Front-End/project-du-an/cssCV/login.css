@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://allimages.sgp1.digitaloceanspaces.com/tipeduvn/2022/09/1661973495_473_Tai-100-hinh-nen-bau-troi-dem-day-sao-HD.jpg');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.dashboard_login {
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 85%;
+    background-color: #D0D4DA;
+}
+
+.nav_bar {
+    padding: 20px;
+    display: flex;
+}
+
+.left_header a {
+    padding-left: 5px;
+    font-weight: bold;
+    color: #344767;
+    padding: 5px 0px;
+
+}
+
+.center_header {
+    margin: 0px auto;
+}
+
+ul.item-1 {
+    margin: 0px 20px;
+}
+
+.item-1 li {
+    margin: 0px 10px;
+}
+
+.item-1 li>a {
+    color: #78839B;
+    display: flex;
+}
+
+.item-1 a>i {
+    margin-right: 5px;
+}
+
+.btn-1,
+.btn-2 {
+    font-weight: bold;
+}
+
+.btn-1 a {
+    border: 1px solid #E02B6B;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 10px;
+    color: #E02B6B;
+}
+
+.btn-2 a {
+    background-color: #252527;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+/* -------------- */
+.form-login {
+    width: 30%;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.header-form {
+    margin: 0px auto;
+    background-color: #E02B6B;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.header-form h1 {
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.item-icon li {
+    padding: 30px;
+    font-size: 22px;
+}
+
+.item-icon li>a {
+    color: #ffffff;
+}
+
+.table {
+    padding: 20px;
+}
+
+.table input {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+hr{
+    margin-bottom: 10px;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #333, transparent);
+}
+
+.table input[type=submit] {
+    background-color: #E02B6B;
+    color: #ffffff;
+    font-weight: bold;
+}
